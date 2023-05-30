@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function MobileMenu() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
@@ -58,7 +58,7 @@ export default function MobileMenu() {
       </button>
 
       {/*Mobile navigation */}
-      <nav
+      {/* <nav
         id="mobile-nav"
         ref={mobileNav}
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
@@ -68,7 +68,7 @@ export default function MobileMenu() {
             : { maxHeight: 0, opacity: 0.8 }
         }
       >
-        {/* <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-gray-800 px-4 py-2">
           <li>
             <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Sign in
@@ -82,8 +82,8 @@ export default function MobileMenu() {
               Sign up
             </Link>
           </li>
-        </ul> */}
-      </nav>
+        </ul>
+      </nav> */}
     </div>
   );
 }
