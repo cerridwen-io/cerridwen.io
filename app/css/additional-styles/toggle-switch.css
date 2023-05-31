@@ -18,10 +18,10 @@
   transition: all 0.15s ease-out;
 }
 
-.form-switch input[type="checkbox"]:checked + label {
+.form-switch input[type='checkbox']:checked + label {
   @apply bg-purple-600;
 }
 
-.form-switch input[type="checkbox"]:checked + label > span:first-child {
+.form-switch input[type='checkbox']:checked + label > span:first-child {
   left: 30px;
 }

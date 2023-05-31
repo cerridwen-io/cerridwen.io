@@ -1,5 +1,5 @@
 // import Link from "next/link";
-import MobileMenu from "./mobile-menu";
+import MobileMenu from './mobile-menu'
 
 export default function Header() {
   return (
@@ -44,5 +44,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  );
+  )
 }

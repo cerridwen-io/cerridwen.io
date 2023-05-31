@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  analyticsId: "hboUP1NGbwSiXGX3DWLFuJ4z6MW",
-};
+  analyticsId: 'hboUP1NGbwSiXGX3DWLFuJ4z6MW',
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig

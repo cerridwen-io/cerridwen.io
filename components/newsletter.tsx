@@ -3,17 +3,12 @@ export default function Newsletter() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* CTA box */}
-        <div
-          className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12"
-          data-aos="fade-up"
-        >
+        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
               <h3 className="h3 text-white mb-2">Stay in touch</h3>
-              <p className="text-purple-200 text-lg">
-                Join our newsletter to hear what we're up!
-              </p>
+              <p className="text-purple-200 text-lg">Join our newsletter to hear what we're up!</p>
             </div>
 
             {/* CTA form */}
@@ -25,10 +20,7 @@ export default function Newsletter() {
                   placeholder="Your best email…"
                   aria-label="Your best email…"
                 />
-                <a
-                  className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
-                  href="#0"
-                >
+                <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" href="#0">
                   Subscribe
                 </a>
               </div>
@@ -39,5 +31,5 @@ export default function Newsletter() {
         </div>
       </div>
     </section>
-  );
+  )
 }

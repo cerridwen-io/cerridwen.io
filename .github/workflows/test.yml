@@ -1,5 +1,5 @@
 name: test
-run-name: ${{ github.actor }} is testing ${{ github.repository }} ref ${{ github.ref }}
+run-name: ${{ github.actor }} is testing ${{ github.ref }}
 on: [push, pull_request]
 jobs:
   pre-commit:
@@ -7,4 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
       - uses: pre-commit/action@v3.0.0

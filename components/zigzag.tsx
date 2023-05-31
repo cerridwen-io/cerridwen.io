@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import FeatImage01 from "@/public/images/features-03-image-01.png";
-import FeatImage02 from "@/public/images/features-03-image-02.png";
-import FeatImage03 from "@/public/images/features-03-image-03.png";
+import FeatImage01 from '@/public/images/features-03-image-01.png'
+import FeatImage02 from '@/public/images/features-03-image-02.png'
+import FeatImage03 from '@/public/images/features-03-image-03.png'
 
 export default function Zigzag() {
   return (
@@ -14,12 +14,10 @@ export default function Zigzag() {
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
               Innovation that matters
             </div>
-            <h1 className="h2 mb-4">
-              Bridging the technological gap for rural America
-            </h1>
+            <h1 className="h2 mb-4">Bridging the technological gap for rural America</h1>
             <p className="text-xl text-gray-400">
-              Historically underserved farmers and ranchers are often left
-              behind when it comes to technology. We're here to change that.
+              Historically underserved farmers and ranchers are often left behind when it comes to technology. We're
+              here to change that.
             </p>
           </div>
 
@@ -46,14 +44,11 @@ export default function Zigzag() {
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Connection to the land
-                  </div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Connection to the land</div>
                   <h3 className="h3 mb-3">Real-time analytics</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -112,14 +107,11 @@ export default function Zigzag() {
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Connection to the weather
-                  </div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Connection to the weather</div>
                   <h3 className="h3 mb-3">Predictive analysis</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -183,9 +175,8 @@ export default function Zigzag() {
                   </div>
                   <h3 className="h3 mb-3">Bridging the urban/rural divide</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -226,5 +217,5 @@ export default function Zigzag() {
         </div>
       </div>
     </section>
-  );
+  )
 }
