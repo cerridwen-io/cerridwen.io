@@ -173,7 +173,7 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Generational change</h4>
               <p className="text-lg text-gray-400 text-center">
-                64% of Oregon fam land will change hands in the next 20 years.
+                64% of Oregon farm land will change hands in the next 20 years.
               </p>
             </div>
           </div>
