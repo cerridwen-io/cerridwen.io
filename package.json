@@ -13,6 +13,7 @@
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.34",
     "@types/react-dom": "18.0.11",
+    "@vercel/analytics": "^1.0.1",
     "aos": "^3.0.0-beta.6",
     "next": "^13.3.0",
     "react": "18.2.0",

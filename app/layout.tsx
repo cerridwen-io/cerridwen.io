@@ -1,6 +1,7 @@
 import "./css/style.css";
 
 import { Inter, Architects_Daughter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import Header from "@/components/ui/header";
 
@@ -37,6 +38,7 @@ export default function RootLayout({
           {children}
         </div>
       </body>
+      <Analytics />
     </html>
   );
 }
