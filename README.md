@@ -1,6 +1,6 @@
 # cerridwen.io
 
-Source for [https://cerridwen.io].
+Source for [https://cerridwen.io](https://cerridwen.io).
 
 ## Architecture Overview
 

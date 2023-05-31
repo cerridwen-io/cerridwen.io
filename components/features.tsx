@@ -6,11 +6,13 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">
-              The majority our customers do not understand their workflows.
+              We're bringing technological innovation to the people in
+              agriculture who need it most. Small, family-owned farms.
             </h2>
             <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              Increasingly unpredicatable weather patterns, rising costs of
+              production, and a global pandemic have made it harder than ever
+              for small farmers to make a living. We're here to help.
             </p>
           </div>
 
@@ -51,11 +53,10 @@ export default function Features() {
                   strokeWidth="2"
                 />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Family first</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Family farms account for 98% of all U.S. farms. Small family
+                farms account for 89% of all U.S. farms.
               </p>
             </div>
 
@@ -92,11 +93,11 @@ export default function Features() {
                   strokeLinecap="square"
                 />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Economic impact</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                The food and agriculture sector generates more than $700 billion
+                in wages, contributes $7 trillion to the nation's economy, and
+                is responsible for 1/5 of the country's economic activity.
               </p>
             </div>
 
@@ -144,11 +145,11 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Across the country</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                As of 2017, the U.S. has over two million farms, accounting for
+                900 million acres of land and 40% of the country's total land
+                area.
               </p>
             </div>
 
@@ -189,11 +190,10 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Conservation</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                15% of U.S. farmland is dedicated to conservation, the
+                equivalent of California and New York combined.
               </p>
             </div>
 
@@ -231,11 +231,12 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Climate</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                The U.S. has sustained 332 weather and climate disasters since
+                1980 where overall damages/costs reached or exceeded $1 billion
+                (including CPI adjustment to 2020). The total cost of these 332
+                events exceeds $2.275 trillion.
               </p>
             </div>
 
@@ -280,11 +281,9 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Generational change</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                64% of Oregon fam land will change hands in the next 20 years.
               </p>
             </div>
           </div>
