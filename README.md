@@ -24,6 +24,11 @@ load `Inter`, a custom Google Font.
 
 TBD
 
+### Accessibility and Design
+
+Cerridwen strives for [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) compliance and
+`AA` conformance; which is `WCAG 2.0 AA` plus *additional* considerations.
+
 ## Credits
 
 - Icons from [Nucleo](https://nucleoapp.com/)
