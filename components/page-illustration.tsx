@@ -1,11 +1,8 @@
-import React from "react";
+import React from 'react'
 
 export default function PageIllustration() {
   return (
-    <div
-      className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-      aria-hidden="true"
-    >
+    <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
       <svg
         className="absolute top-0 right-0 transform translate-x-1/2 -mr-16"
         width="722"
@@ -33,5 +30,5 @@ export default function PageIllustration() {
         />
       </svg>
     </div>
-  );
+  )
 }

@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import FeatImage01 from "@/public/images/features-03-image-01.png";
-import FeatImage02 from "@/public/images/features-03-image-02.png";
-import FeatImage03 from "@/public/images/features-03-image-03.png";
+import FeatImage01 from '@/public/images/jan-kopriva-LTMaAwxanGk-unsplash.jpg'
+import FeatImage02 from '@/public/images/timothy-eberly-XemjjFd_4qE-unsplash.jpg'
+import FeatImage03 from '@/public/images/scott-goodwill-CtRE4_4L7b8-unsplash.jpg'
 
 export default function Zigzag() {
   return (
@@ -14,12 +14,10 @@ export default function Zigzag() {
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
               Innovation that matters
             </div>
-            <h1 className="h2 mb-4">
-              Bridging the technological gap for rural America
-            </h1>
+            <h1 className="h2 mb-4">Bridging the technological gap for rural America</h1>
             <p className="text-xl text-gray-400">
-              Historically underserved farmers and ranchers are often left
-              behind when it comes to technology. We're here to change that.
+              Historically underserved farmers and ranchers are often left behind when it comes to technology. We're
+              here to change that.
             </p>
           </div>
 
@@ -46,14 +44,11 @@ export default function Zigzag() {
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Connection to the land
-                  </div>
+                  <div className="font-architects-daughter text-xl text-teal-600 mb-2">Connection to the land</div>
                   <h3 className="h3 mb-3">Real-time analytics</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    The best decisions are made when informed with quality data. We provide real-time analytics, for
+                    your farm, your ranch, and your community.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -64,7 +59,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Localized, real-time data</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -74,7 +69,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Monitor the health of equipment, crops, and animals</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -84,7 +79,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Responsive, informative, and perpetually learning</span>
                     </li>
                   </ul>
                 </div>
@@ -112,14 +107,11 @@ export default function Zigzag() {
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Connection to the weather
-                  </div>
+                  <div className="font-architects-daughter text-xl text-teal-600 mb-2">Connection to the weather</div>
                   <h3 className="h3 mb-3">Predictive analysis</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Weather is a major influencer in day-to-day operations. We keep you a step ahead so you can stay
+                    informed and prepared.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -130,7 +122,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Combined regional and local data</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -140,7 +132,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Micro-climate analysis</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -150,7 +142,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Proactive weather strategies</span>
                     </li>
                   </ul>
                 </div>
@@ -178,14 +170,12 @@ export default function Zigzag() {
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    connection to your community
+                  <div className="font-architects-daughter text-xl text-teal-600 mb-2">
+                    Connection to your community
                   </div>
                   <h3 className="h3 mb-3">Bridging the urban/rural divide</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Technology should be accessible to everyone. We're working to make sure that happens.
                   </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -196,7 +186,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>High-tech innovation for the heartland</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -206,7 +196,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Connection to new sources of funding</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -216,7 +206,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Community empowerment</span>
                     </li>
                   </ul>
                 </div>
@@ -226,5 +216,5 @@ export default function Zigzag() {
         </div>
       </div>
     </section>
-  );
+  )
 }

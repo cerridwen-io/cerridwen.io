@@ -12,3 +12,10 @@ repos:
     rev: "6fd1ced85fc139abd7f5ab4f3d78dab37592cd5e" # frozen: v3.0.0-alpha.9-for-vscode
     hooks:
       - id: prettier
+        types_or: [css, javascript, ts, tsx]
+        args: [--write]
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: ce0d77ac47dc921b62429804fe763d4d35f66a76  # frozen: v0.34.0
+    hooks:
+    - id: markdownlint
+      args: [--config, .markdownlint.json]
